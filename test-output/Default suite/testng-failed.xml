@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="stepdefinition.stepdefinition">
+        <methods>
+          <include name="user_is_on_the_google_page"/>
+          <include name="user_enter_the_item_to_search_and_press_enter"/>
+        </methods>
+      </class> <!-- stepdefinition.stepdefinition -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
