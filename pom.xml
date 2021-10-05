@@ -6,27 +6,33 @@
 	<artifactId>Z_automation_of_flipkart</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
+	
+	<properties>
+		<java.version>1.8</java.version>
+		<junit.version>4.13</junit.version>
+		<cucumber.version>5.6.0</cucumber.version>
+	</properties>
 	<dependencies>
+		
 		<dependency>
-			<groupId>io.cucumber</groupId>
-			<artifactId>cucumber-java</artifactId>
-			<version>6.11.0</version>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>${junit.version}</version>
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-core -->
+		
 		<dependency>
 			<groupId>io.cucumber</groupId>
-			<artifactId>cucumber-core</artifactId>
-			<version>6.11.0</version>
+			<artifactId>cucumber-java</artifactId>
+			<version>${cucumber.version}</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
+
 		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-junit</artifactId>
-			<version>7.0.0-RC1</version>
-			<scope>test</scope>
+			<version>${cucumber.version}</version>
 		</dependency>
-
 
 		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 		<dependency>
@@ -35,20 +41,6 @@
 			<version>4.0.0-rc-1</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
-		<dependency>
-			<groupId>io.cucumber</groupId>
-			<artifactId>cucumber-junit</artifactId>
-			<version>7.0.0-RC1</version>
-			<scope>test</scope>
-		</dependency>
-
-		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
-		<dependency>
-			<groupId>io.cucumber</groupId>
-			<artifactId>cucumber-testng</artifactId>
-			<version>7.0.0-RC1</version>
-		</dependency>
-
 	</dependencies>
 
 
